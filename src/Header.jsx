@@ -4,7 +4,8 @@ export default () => (
     style={{
       padding: "1em",
       margin: "1em",
-      background: "lightblue",
+      background: "lightgreen",
+      color: "white",
     }}
   >
     Header 1.0
