@@ -53,7 +53,7 @@ module.exports = (_, argv) => ({
       shared: {
         ...deps,
         react: {
-          singleton: true,
+          singleton: true, // 仅允许共享模块的单个版本
           requiredVersion: deps.react,
         },
         "react-dom": {
