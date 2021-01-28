@@ -48,6 +48,7 @@ module.exports = (_, argv) => ({
       remotes: {},
       exposes: {
         "./Header": "./src/Header",
+        "./Input": "./src/Input.jsx",
       },
       shared: {
         ...deps,
